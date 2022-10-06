@@ -1,9 +1,21 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../node_modules/sass-google-fonts/src/GoogleFonts.scss";
+@import "./mixin";
 
-.navbar{
-    height: 100vh;
-    width: fit-content;
+body{
+    display: flex;
+    align-items: center;
+
+    .navbar{
+        height: 100vh;
+        width: fit-content;
+    }
+
+    h1 {
+    @include fontstitle;
+    }
 }
+
+
 
 
