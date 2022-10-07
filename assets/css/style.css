@@ -10779,7 +10779,7 @@ body .navbar {
   height: 100vh;
   width: fit-content;
 }
-body h1, body .h1 {
+body .navbar h1, body .navbar .h1 {
   font-size: 100px;
   font-weight: 800;
   color: #fd2155;

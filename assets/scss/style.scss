@@ -9,10 +9,12 @@ body{
     .navbar{
         height: 100vh;
         width: fit-content;
+        h1 {
+        @include fontstitle;
+        }
     }
-
-    h1 {
-    @include fontstitle;
+    .card {
+        
     }
 }
 
